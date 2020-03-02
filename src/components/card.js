@@ -103,8 +103,9 @@ export class Card extends React.Component {
           <br></br>
 
           <InputMask
-            mask=""
-            maxLength="4"
+            mask="99 99"
+            maskChar=""
+            //maxLength="4"
             placeholder="Expiry date"
             onChange={this.handleExpiryChange}
           />
